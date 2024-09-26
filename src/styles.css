@@ -1,1 +1,76 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+main{
+    padding: 25px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  h2{
+    color: black;
+    
+  }
+  mat-form-field {
+    width: 100%; 
+  }
+
+  /* Table Css  */
+  .table-container {
+      overflow-x: auto; 
+    }
+   
+    .mat-mdc-table {
+        
+        background-color: #eaeae2 !important;
+        white-space: nowrap !important;
+    }
+    .mdc-data-table__cell, .mdc-data-table__header-cell {
+        padding: 0 10px 0 10px !important;
+    }
+  
+  .col-line {
+    border-right: 1px solid #ddd;
+  }
+  
+  .circle {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .ha-class {
+    background-color: #4caf4fc8; 
+  }
+  
+  .dh-class {
+    background-color: #f44336cc; 
+  }
+  
+  .ur-class {
+    background-color: #2195f3d0; 
+  }
+  
+ 
+  
+  .mat-mdc-header-cell {
+    color: rgba(128, 128, 128, 0.855) !important;
+  }
+  
+/* Table css ended  */
+
+
+
+
+

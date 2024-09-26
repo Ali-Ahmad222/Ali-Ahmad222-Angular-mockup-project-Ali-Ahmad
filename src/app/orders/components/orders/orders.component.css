@@ -1,0 +1,14 @@
+
+  /* same css of both modules in globle css file  */
+  .filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap; 
+    margin-bottom: 20px;
+  }
+  .filter-btn {
+    background-color: #eaeae2;
+    color: black;
+    font-size: 11px;
+  }
+  

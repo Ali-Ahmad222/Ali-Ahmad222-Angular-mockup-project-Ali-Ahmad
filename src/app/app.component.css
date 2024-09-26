@@ -1,0 +1,51 @@
+/* header and sidenavbar css  */
+#header {
+  background: #a6a4a267;
+  color: black;
+
+}
+
+.extra {
+  flex: 1 1 auto;
+}
+
+.logo {
+  margin-left: 20px;
+}
+
+.sidenav-wrapper {
+  position: absolute;
+  top: 60px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #a6a4a267;
+
+}
+
+mat-sidenav {
+
+  width: 220px;
+  background-color: #eaeae2;
+  padding: 20px;
+  padding: 0px 20px 20px 14px;
+  border-top: 4px solid #a6a4a281;
+}
+
+.custom-toolbar {
+  background-color: transparent;
+  font-size: 14px;
+  padding-left: 0px;
+  color: rgba(128, 128, 128, 0.855);
+
+}
+
+span {
+  font-size: 14px;
+  color: black;
+}
+
+
+  .welcome {
+    font-size: 12px;
+  }
